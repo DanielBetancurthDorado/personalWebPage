@@ -9,10 +9,10 @@ import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Hobbies from "./components/hobbies";
 import Contact from "./components/contact";
-
+/*Buena division de la pagina, me imagino que el primer div es de clase container*/
 function App() {
   return (
-    <div className="contaier">
+    <div className="container">
       <Navigation />
       <header className="header text-center">
         <h1>Miguel Hoyos Ruge</h1>
@@ -37,3 +37,4 @@ function App() {
 }
 
 export default App;
+/*No hay errores segun W3, muy buen trabajo! */
